@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+       public class class4 {
+              public static void main(String[] args) {
+
+              double Armut =2.14,Elma =3.67,Domates =1.11,Muz=0.95,Patlican =5.00,tutar;
+              double akg,ekg,dkg,mkg,pkg;
+
+              Scanner input=new Scanner(System.in);
+
+              System.out.println("Armut kac kilo? :");
+              akg = input.nextDouble();
+
+              System.out.println("Elma kac kilo?:");
+              ekg = input.nextDouble();
+
+              System.out.println("Domates kac kilo?:");
+              dkg = input.nextDouble();
+
+              System.out.println("Muz kac kilo?:");
+              mkg = input.nextDouble();
+
+              System.out.println("Patlican kac kilo ?:");
+              pkg = input.nextDouble();
+
+              tutar=(Armut*akg) +(Elma*ekg) +(Domates*dkg) +(Muz*mkg) +(Patlican*pkg);
+
+              System.out.println("Toplam tutar:" +tutar);
