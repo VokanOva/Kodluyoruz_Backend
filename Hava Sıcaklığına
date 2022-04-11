@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+class HAVA {
+    public static void main(String[] args) {
+        int heat;
+        Scanner input = new Scanner(System.in);
+        System.out.print("hava sicakligini giriniz: ");
+        heat = input.nextInt();
+
+        if (heat < 5) {
+            System.out.print("kayak yapabilirsiniz");
+        } else if (heat <= 25) {
+            if (heat <= 15) {
+                System.out.println("sinemaya gidebilirsiniz");
+            }
+            if (heat >= 10) {
+                System.out.println("piknige gidebilirsiniz");
+            }
+        } else {
+            System.out.println("yuzmeye gidebilirsiniz");
+        }
+
+
+    }
+}
